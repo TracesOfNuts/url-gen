@@ -48,16 +48,3 @@ Contributions are welcome for improvements or new features.
 ## License
 
 Open-sourced under the MIT License.
-
----
-
-### Code Review Notes
-
-Upon reviewing the code, here are some potential issues or considerations:
-
-- **Error Handling**: Ensure there's adequate error handling, especially for invalid inputs.
-- **Validation**: While generating invalid URLs is part of the script, ensure there's clear differentiation or flags for valid versus invalid URL generation to prevent misuse.
-- **Performance**: Depending on the method of random character generation, consider the performance impact for generating a large number of URLs.
-- **Security**: Be cautious of generating URLs that may unintentionally lead to malicious sites if used in real-world applications.
-
-These notes are based on common practices and potential issues; specific problems would require a detailed code review not covered here.
